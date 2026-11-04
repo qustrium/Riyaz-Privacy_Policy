@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riyaz — Privacy Policy</title>
+<style>
+:root{
+  color-scheme: light dark;
+  --bg:#fbfaf7; --fg:#1c1b19; --muted:#6a665f; --line:#dedacf; --accent:#8a5a14; --card:#f2efe7;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0f1014; --fg:#ebe7dd; --muted:#a09c92; --line:#2b2e38; --accent:#e0ad5b; --card:#171920; }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 Georgia,"Iowan Old Style","Palatino Linotype",serif;
+  padding:clamp(20px,5vw,56px) max(16px,env(safe-area-inset-left)) 64px max(16px,env(safe-area-inset-right))}
+main{max-width:70ch;margin:0 auto}
+h1{font:600 clamp(1.9rem,6vw,2.6rem)/1.1 Georgia,serif;margin:0 0 6px;text-wrap:balance}
+h2{font:600 1.2rem/1.3 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:2.2em 0 .5em;padding-top:1.1em;border-top:1px solid var(--line)}
+p,li{margin:.6em 0}
+ul{padding-left:1.2em}
+.meta{color:var(--muted);font:.9rem/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.summary{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:22px 0}
+.summary strong{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.tablewrap{overflow-x:auto;margin:1em 0}
+table{border-collapse:collapse;width:100%;min-width:480px;font:.92rem/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:600}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Riyaz Privacy Policy</h1>
+  <p class="meta">Effective 4 November 2026 · App: Riyaz · Developer: Qustrium</p>
+
+  <div class="summary">
+    <strong>In short:</strong> Riyaz records your practice sessions and keeps the recordings safely stored on your own device. There are no user accounts, no advertisements, and no analytics tracking. We do not run any external servers that collect or view your recordings.
+  </div>
+
+  <h2>1. What Riyaz does</h2>
+  <p>Riyaz is a practice recorder designed for musicians. It records audio and video, displays a practice stopwatch, detects tempo (beats per minute) in real-time, and provides shake correction so you can easily review your practice takes.</p>
+
+  <h2>2. Information the app uses</h2>
+  <div class="tablewrap">
+  <table>
+    <thead><tr><th>Information</th><th>Why</th><th>Where it stays</th></tr></thead>
+    <tbody>
+      <tr><td>Camera video</td><td>To record your practice and show the live camera feed</td><td>On your device only</td></tr>
+      <tr><td>Microphone audio</td><td>To record your practice and to measure tempo and input sound levels</td><td>On your device only</td></tr>
+      <tr><td>Tempo readings, marks & take names</td><td>To generate your tempo graphs and remember your practice flags</td><td>Calculated locally and stored with the recording in your browser/app storage</td></tr>
+      <tr><td>Settings (target tempo, camera/mic selection, save preferences)</td><td>To remember your app preferences</td><td>On your device only</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>All tempo calculations are performed locally on your device. Your audio is never sent to external servers for analysis.</p>
+  <p>We do not collect your name, email address, physical location, contacts, advertising IDs, or hardware identifiers.</p>
+
+  <h2>3. Where your recordings are stored</h2>
+  <p>Recordings are stored inside local app storage on your device. We have no remote access to your files. If you choose to download, share, or save a recording to your file manager, that file goes to the destination of your choice and is governed by that service's respective policies.</p>
+
+  <h2>4. Permissions the app asks for</h2>
+  <ul>
+    <li><strong>Camera</strong> and <strong>Microphone</strong>: Required to capture video and audio recordings. Riyaz utilizes them only while the app is active. You can revoke permissions at any time in your device Settings.</li>
+    <li><strong>Vibration</strong>: Provides short haptic feedback when you mark a specific moment in your practice session.</li>
+    <li><strong>Keep screen on (Wake Lock)</strong>: Prevents the screen from dimming or sleeping while actively recording.</li>
+    <li><strong>Network access</strong>: Used exclusively to load web components and execute optional user-initiated Google Drive uploads.</li>
+  </ul>
+
+  <h2>5. Data Sharing</h2>
+  <p>We do not sell, rent, track, or share your personal information because we never collect or receive it in the first place. Any file sharing is strictly initiated by you (e.g., sharing a video take via your system share menu or exporting to a cloud folder).</p>
+
+  <h2>6. Third-Party Services</h2>
+  <ul>
+    <li><strong>Google Fonts:</strong> The app loads typography assets (IBM Plex Mono and Instrument Serif) via Google Fonts. When fetching fonts, your device communicates with Google's servers, exposing your IP address as with standard internet browsing. No audio, video, or personal details are transmitted. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+    <li><strong>Google Drive Upload (Optional):</strong> If you choose to enable automatic Google Drive backup in Settings, you will be prompted to sign in with your Google Account. Riyaz requests limited scope access (<code>drive.file</code>), granting access <em>only</em> to the files and "Riyaz" folder it creates itself. Uploads pass directly from your device to your personal Google Drive storage without routing through any intermediary servers of ours. You can revoke this access anytime at <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>.</li>
+  </ul>
+
+  <h2>7. Keeping and deleting your data</h2>
+  <ul>
+    <li>Delete an individual practice take directly within the app using the <strong>Delete</strong> button under that take.</li>
+    <li>Clear all application data by clearing browser/app storage or uninstalling the app from your device.</li>
+    <li>Saved or uploaded copies in third-party services (like Google Drive) remain until you delete them from those respective locations.</li>
+  </ul>
+
+  <h2>8. Children's Privacy</h2>
+  <p>Riyaz is not directed at children under 13 and does not knowingly collect personal information from anyone. Because all recordings remain strictly on the local device, parents or guardians can review and delete them directly on the device.</p>
+
+  <h2>9. Security</h2>
+  <p>Your practice recordings are protected by your device's built-in OS security. We recommend keeping a strong device passcode or biometrics enabled. No electronic storage method is 100% secure, and absolute security cannot be guaranteed.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>If app features change in a manner that affects user privacy, this policy document will be updated alongside the effective date listed above.</p>
+
+  <h2>11. Contact</h2>
+  <p>If you have any questions regarding this privacy policy, please contact us at: <a href="mailto:qustrium@gmail.com">qustrium@gmail.com</a></p>
+</main>
+</body>
+</html>
